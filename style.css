@@ -1,0 +1,391 @@
+* {
+    outline: none
+}
+/*font-family: "Gadugi Bold";*/
+@font-face {
+    font-family: Gadugi Bold;
+    src: url(fonts/gadugi-bold.ttf);
+}
+/*===linksTop===*/
+.linksTop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: white;
+    padding-top: 3px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.linksTop a{
+    margin-left: 45px;
+    color: #000000;
+    font-weight: 600;
+}
+.linksTop a:hover{
+    text-decoration: none;
+    color: #FF4E1A;
+}
+/*===header===*/
+.header .carouselMobile{
+    display: none;
+}
+.header .carouselDesktop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(img/header_banner.png) top center;
+    margin-top: 58px;
+}
+.header .carouselDesktop .carousel-item{
+    text-align:center;
+}
+/*===box1234===*/
+.boxLinks .boxLogoMobile{
+    display: none;
+}
+.boxLinks .box1234{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+}
+.boxLinks .box1234 .box1234Links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 260px;
+    height: 80px;
+    margin: 10px 15px 10px 15px;
+    box-shadow: 2px 8px 4px 1px rgba(0, 0, 0, 0.2);
+    z-index: 9;
+}
+.boxLinks .box1234 .box1234Links .boxtxt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/*===infoVotodoacao===*/
+.infoVotodoacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.infoVotodoacao .Votodoacao img{
+    margin-top: -40px;
+    margin-left: 20px;
+}
+.infoVotodoacao .info .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.infoVotodoacao .info .icons .jogadoresServidor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 130px;
+    height: 55px;
+    background-color: #F3F3F3;
+    border-radius: 0.8rem;
+    margin: 0 10px 0 10px;
+}
+.infoVotodoacao .info .icons img{
+    margin: 0 20px 0 0px;
+}
+/*===loja===*/
+.loja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F8F8F8;
+    margin: 50px 0 0 0;
+    padding-bottom: 40px;
+}
+.carrosselItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 5px 0 5px;
+    background-color: #F3F3F3;
+}
+.loja .lojaSlide{
+    width: 1150px;
+}
+.carrosselItem p{
+    text-align: center;
+}
+.carrosselItem h6{
+    color: #fd3f05;
+}
+/*===ranking===*/
+.ranking{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+.ranking .rankingBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ranking .rankingBox .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    margin: 0 26px 0 26px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    width: 235px;
+    height: 220px;
+    overflow: hidden;
+}
+.ranking .rankingBox .card p{
+    margin: 0;
+}
+.ranking .rankingBox .card .cardBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ranking .rankingBox .card .cardBody .cardBody3Stats{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+.ranking .rankingBox .card .cardBody .cardBodyStats{
+    display: flex;
+    align-items: center;
+}
+.ranking .rankingBox .card .cardBody .cardBodyStats .cardBodyStatsImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ranking .rankingBox .card .cardBody .cardBodyStats .cardBodyStatsTxt{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/*===guerra===*/
+.guerra{
+    display: flex;
+    background-image: url(img/banner_mid.png);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.guerra .guerraBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.guerra .guerraBox .cardGuerra{
+    display: flex;
+    align-items: center;
+    border-radius: 1.5rem;
+    width: 450px;
+    height: 200px;
+    background-color: white;
+    margin-bottom: -40px;
+}
+.guerra .guerraBox .cardGuerra .cardGuerraInterno{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.guerra .guerraBox .cardGuerra p{
+    margin: 0;
+}
+/*===estatistica===*/
+.estatistica{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0 40px 0;
+}
+.estatistica .estatisticaBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 80px 0 80px;
+}
+.estatistica .estatisticaBox img{
+    opacity: 0.3;
+}
+.estatistica .estatisticaBox p{
+    opacity: 0.3;
+}
+/*===footer===*/
+.footer .footerBox1{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.footer .footerBox1 img{
+    margin: 25px 20px 25px 0;
+}
+.footer .footerBox1 .footerBox1Sobre{
+    width: 15%;
+    margin: 25px 20px 0 20px;
+}
+.footer .footerBox1 .footerBox1Raking{
+    margin: 25px 20px 0 20px;
+}
+.footer .footerBox1 .footerBox1Raking p{
+    margin: 0;
+}
+.footer .footerBox1 .footerBox1Sociais{
+    margin: 25px 0 0 80px;
+}
+.footer .footerBox1 .footerBox1Sociais img{
+    margin: 5px
+}
+
+.footer .footerBox2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0C1115;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer .footerBox2 p{
+    color: white;
+}
+.footer .footerBox2 .footerBox2Logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44%;
+}
+.footer .footerBox2 .footerBox2txt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 56%;
+    font-size: 90%;
+}
+.footer .footerBox2 .footerBox2txt P:nth-child(1){
+    margin-top: 7px;
+    margin-left: 72px;
+}
+.footer .footerBox2 .footerBox2txt P:nth-child(2){
+    margin-top: -20px;
+    margin-bottom: -5px;
+}
+.footer .footerBox2 .footerBox2txt P:nth-child(3){
+    margin-bottom: 6px;
+    margin-left: 26px;
+}
+
+/*===slidebar config===*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+#sidebar {
+    width: 50vw;
+    position: fixed;
+    top: 0;
+    left: -60vw;
+    height: 100vh;
+    z-index: 999;
+    background-image: url(img/md/md_bg01.png);
+    color: #fff;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+#sidebar .slideBody a{
+    text-decoration: none;
+}
+#sidebar .slideBody a:hover{
+    color: #00D9D9;
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+#dismiss {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #7386D5;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#dismiss:hover {
+    background: #fff;
+    color: #7386D5;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
